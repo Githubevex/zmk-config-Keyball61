@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '@'
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - ':'
+  - {t: ;, s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -44,17 +44,17 @@ layers:
   - V
   - B
   - {t: '$$mdi:backspace$$', h: FUN}
-  - {t: B, h: '4'}
+  - A
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - D
+  - INT RO
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - MENU
+  - $$mdi:keyboard-tab$$
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - SYM
@@ -304,7 +304,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
