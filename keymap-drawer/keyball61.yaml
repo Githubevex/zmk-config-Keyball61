@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: ']', s: '}'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -89,7 +89,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -101,7 +101,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
