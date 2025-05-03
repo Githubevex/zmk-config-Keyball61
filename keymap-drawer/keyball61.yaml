@@ -59,7 +59,7 @@ layers:
   - LY2
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - INT5
+  - {t: '`', s: '~'}
   - INT KANA
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
