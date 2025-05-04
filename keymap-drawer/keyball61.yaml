@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:backspace$$', h: FUN}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - N
   - M
   - {t: ',', s: <}
@@ -59,7 +59,7 @@ layers:
   - LY2
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '`', s: '~'}
+  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - INT KANA
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
