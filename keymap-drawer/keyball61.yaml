@@ -55,8 +55,8 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - {t: VideoEdit, h: toggle}
-  - $$mdi:keyboard-space$$
   - LY2
+  - $$mdi:keyboard-space$$
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
@@ -120,8 +120,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
