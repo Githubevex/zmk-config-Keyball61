@@ -37,11 +37,11 @@
 
         Layer2 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans                  &trans         &trans    &trans          &trans      &kp SEMICOLON  &kp INT_YEN
-&trans      &trans        &trans        &trans        &trans  &trans                  &kp PG_UP      &kp HOME  &kp UP_ARROW    &kp END     &trans         &kp RBKT
-&trans      &trans        &trans        &trans        &trans  &trans                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &kp ENTER      &kp NUHS
-&trans      &trans        &trans        &trans        &trans  &trans  &trans  &kp A   &trans         &trans    &kp BACKSPACE   &kp DELETE  &trans         &trans
-&trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans         &kp INT5  &trans          &trans      &trans         &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans                  &trans         &trans    &trans          &trans      &kp EQUAL  &kp INT_YEN
+&trans      &trans        &trans        &trans        &trans  &trans                  &kp PG_UP      &kp HOME  &kp UP_ARROW    &kp END     &trans     &kp RBKT
+&trans      &trans        &trans        &trans        &trans  &trans                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &kp ENTER  &kp NUHS
+&trans      &trans        &trans        &trans        &trans  &trans  &trans  &kp A   &trans         &trans    &kp BACKSPACE   &kp DELETE  &trans     &trans
+&trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans         &kp INT5  &trans          &trans      &trans     &trans
             >;
 
             label = "LY2";
