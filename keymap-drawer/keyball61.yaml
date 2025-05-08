@@ -59,7 +59,7 @@ layers:
   - $$mdi:keyboard-space$$
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - INT KANA
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
