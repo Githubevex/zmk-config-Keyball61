@@ -256,8 +256,8 @@ rect.held, rect.combo.held {
   visibility: hidden;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-QWRT">
-<text x="0" y="28" class="label" id="QWRT">QWRT:</text>
+<g transform="translate(40, 0)" class="layer-LY0">
+<text x="0" y="28" class="label" id="LY0">LY0:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -559,8 +559,8 @@ rect.held, rect.combo.held {
 <g transform="translate(280, 280)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#LY2">
-<text x="0" y="-4" class="key tap layer-activator">LY2</text>
+<a href="#LY1">
+<text x="0" y="-4" class="key tap layer-activator">LY1</text>
 </a></g>
 <g transform="translate(336, 280)" class="key keypos-55">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -613,8 +613,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 364)" class="layer-LY2">
-<text x="0" y="28" class="label" id="LY2">LY2:</text>
+<g transform="translate(40, 364)" class="layer-LY1">
+<text x="0" y="28" class="label" id="LY1">LY1:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2197,8 +2197,8 @@ rect.held, rect.combo.held {
 <g transform="translate(196, 252)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#QWRT">
-<text x="0" y="-4" class="key tap layer-activator">QWRT</text>
+<a href="#LY0">
+<text x="0" y="-4" class="key tap layer-activator">LY0</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(280, 280)" class="key trans keypos-54">
