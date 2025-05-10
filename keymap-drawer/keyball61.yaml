@@ -44,14 +44,14 @@ layers:
   - V
   - B
   - {t: '$$mdi:backspace$$', h: FUN}
-  - A
+  - $$mdi:apple-keyboard-control$$
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - INT RO
-  - B
+  - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - {t: VideoEdit, h: toggle}
