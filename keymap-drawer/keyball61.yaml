@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:backspace$$', h: FUN}
-  - A
+  - {t: '$$mdi:transfer$$', type: trans}
   - N
   - M
   - {t: ',', s: <}
