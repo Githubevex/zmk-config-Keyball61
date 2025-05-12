@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - {t: '$$mdi:backspace$$', h: FUN}
-  - $$mdi:apple-keyboard-control$$
+  - A
   - N
   - M
   - {t: ',', s: <}
