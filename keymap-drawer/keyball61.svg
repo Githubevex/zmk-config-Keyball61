@@ -612,6 +612,16 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<text x="224" y="147" class="combo tap">
+<tspan x="224" dy="-0.6em">INT</tspan><tspan x="224" dy="1.2em">KANA</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">INT5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 364)" class="layer-LAYER1">
@@ -945,6 +955,16 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<text x="224" y="147" class="combo tap">
+<tspan x="224" dy="-0.6em">INT</tspan><tspan x="224" dy="1.2em">KANA</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">INT5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 728)" class="layer-LAYER2">
@@ -1276,6 +1296,16 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<text x="224" y="147" class="combo tap">
+<tspan x="224" dy="-0.6em">INT</tspan><tspan x="224" dy="1.2em">KANA</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">INT5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1092)" class="layer-VE">
@@ -1605,6 +1635,16 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<text x="224" y="147" class="combo tap">
+<tspan x="224" dy="-0.6em">INT</tspan><tspan x="224" dy="1.2em">KANA</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">INT5</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1456)" class="layer-VE2">
@@ -1932,6 +1972,16 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<text x="224" y="147" class="combo tap">
+<tspan x="224" dy="-0.6em">INT</tspan><tspan x="224" dy="1.2em">KANA</tspan>
+</text>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">INT5</text>
 </g>
 </g>
 </g>
