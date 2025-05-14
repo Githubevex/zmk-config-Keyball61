@@ -223,7 +223,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+B
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ']', s: '}'}
