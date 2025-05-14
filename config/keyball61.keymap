@@ -61,11 +61,11 @@
 
         VideoEdit1 {
             bindings = <
-&kp LS(ESCAPE)  &trans  &trans     &trans     &trans    &trans                         &trans    &trans        &trans          &trans         &trans            &trans
-&kp LS(Z)       &trans  &kp HOME   &trans     &kp END   &kp BACKSPACE                  &trans    &kp LC(D)     &kp SPACE       &kp ENTER      &kp LS(ENTER)     &trans
-&kp LEFT_ALT    &trans  &kp UP     &trans     &kp DOWN  &trans                         &kp RBKT  &kp LC(LEFT)  &kp DEL         &kp LC(RIGHT)  &kp LEFT_BRACKET  &trans
-&kp LSHIFT      &trans  &kp LC(H)  &kp LC(R)  &trans    &trans         &trans  &trans  &kp N     &kp LEFT      &msc SCRL_DOWN  &kp RIGHT      &kp END           &trans
-&kp LCTRL       &trans  &trans     &to 0      &trans    &kp SPACE      &trans  &trans  &mo 4     &trans        &trans          &trans         &trans            &trans
+&kp LS(ESCAPE)  &trans  &trans     &trans     &trans    &trans                         &trans    &trans        &trans          &trans         &trans                &trans
+&kp LS(Z)       &trans  &kp HOME   &trans     &kp END   &kp BACKSPACE                  &trans    &kp LC(D)     &kp SPACE       &kp ENTER      &kp LS(ENTER)         &trans
+&kp LEFT_ALT    &trans  &kp UP     &trans     &kp DOWN  &trans                         &kp RBKT  &kp LC(LEFT)  &kp DEL         &kp LC(RIGHT)  &kp NON_US_BACKSLASH  &trans
+&kp LSHIFT      &trans  &kp LC(H)  &kp LC(R)  &trans    &trans         &trans  &trans  &kp N     &kp LEFT      &msc SCRL_DOWN  &kp RIGHT      &kp END               &trans
+&kp LCTRL       &trans  &trans     &to 0      &trans    &kp SPACE      &trans  &trans  &mo 4     &trans        &trans          &trans         &trans                &trans
             >;
 
             label = "VE";
