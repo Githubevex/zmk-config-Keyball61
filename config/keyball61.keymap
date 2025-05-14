@@ -22,6 +22,20 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Kana {
+            bindings = <&kp INT_KANA>;
+            key-positions = <27 28>;
+        };
+
+        ABC {
+            bindings = <&kp INT5>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
