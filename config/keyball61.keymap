@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -60,11 +61,11 @@
 
         VideoEdit1 {
             bindings = <
-&kp LS(ESCAPE)  &trans  &trans     &trans     &trans    &trans                         &trans    &trans     &trans     &trans     &trans   &trans
-&kp LS(Z)       &trans  &kp HOME   &trans     &kp END   &kp BACKSPACE                  &trans    &kp LC(D)  &kp SPACE  &kp ENTER  &trans   &trans
-&kp LEFT_ALT    &trans  &kp UP     &trans     &kp DOWN  &trans                         &kp RBKT  &trans     &kp DEL    &trans     &kp SQT  &trans
-&kp LSHIFT      &trans  &kp LC(H)  &kp LC(R)  &trans    &trans         &trans  &trans  &trans    &kp LEFT   &trans     &kp RIGHT  &trans   &trans
-&kp LCTRL       &trans  &trans     &to 0      &trans    &kp SPACE      &trans  &trans  &mo 4     &trans     &trans     &trans     &trans   &trans
+&kp LS(ESCAPE)  &trans  &trans     &trans     &trans    &trans                         &trans    &trans        &trans          &trans         &trans         &trans
+&kp LS(Z)       &trans  &kp HOME   &trans     &kp END   &kp BACKSPACE                  &trans    &kp LC(D)     &kp SPACE       &kp ENTER      &kp LS(ENTER)  &trans
+&kp LEFT_ALT    &trans  &kp UP     &trans     &kp DOWN  &trans                         &kp RBKT  &kp LC(LEFT)  &kp DEL         &kp LC(RIGHT)  &kp SQT        &trans
+&kp LSHIFT      &trans  &kp LC(H)  &kp LC(R)  &trans    &trans         &trans  &trans  &kp N     &kp LEFT      &msc SCRL_DOWN  &kp RIGHT      &kp END        &trans
+&kp LCTRL       &trans  &trans     &to 0      &trans    &kp SPACE      &trans  &trans  &mo 4     &trans        &trans          &trans         &trans         &trans
             >;
 
             label = "VE";
@@ -72,11 +73,11 @@
 
         VideoEdit2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans    &trans         &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans    &trans         &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LS(PAGE_UP)  &kp RS(LEFT)  &kp UP    &kp LS(RIGHT)  &kp LS(PAGE_DOWN)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &kp PAGE_UP   &kp DOWN  &kp PAGE_DOWN  &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans        &trans    &trans         &trans             &trans
             >;
 
             label = "VE2";
