@@ -90,7 +90,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans    &trans         &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans    &trans         &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &kp LS(PAGE_UP)  &kp RS(LEFT)  &kp UP    &kp LS(RIGHT)  &kp LS(PAGE_DOWN)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &kp PAGE_UP   &kp DOWN  &kp PAGE_DOWN  &trans             &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Z)        &kp PAGE_UP   &kp DOWN  &kp PAGE_DOWN  &trans             &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans        &trans    &trans         &trans             &trans
             >;
 
