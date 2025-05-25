@@ -34,6 +34,16 @@
             bindings = <&kp INT_KANA>;
             key-positions = <31 32>;
         };
+
+        ToLayer4 {
+            bindings = <&to 4>;
+            key-positions = <4 5>;
+        };
+
+        ToLayer0 {
+            bindings = <&to 0>;
+            key-positions = <6 7>;
+        };
     };
 
     keymap {
@@ -42,35 +52,24 @@
         Layer0 {
             label = "MAIN";
             bindings = <
-&kp ESC         &kp N1        &kp N2        &kp N3  &kp N4  &kp N5                         &kp N6                &kp N7        &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB         &kp Q         &kp W         &kp E   &kp R   &kp T                          &kp Y                 &kp U         &kp I      &kp O     &kp P     &kp LEFT_BRACKET
-&kp CAPSLOCK    &kp A         &kp S         &kp D   &kp F   &kp G                          &kp H                 &kp J         &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C   &kp V   &kp B      &kp DEL  &trans     &kp N                 &kp M         &kp COMMA  &kp DOT   &kp FSLH  &kp INT_RO
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 3   &mo 1   &kp SPACE  &mo 2    &kp ENTER  &mt LEFT_SHIFT SPACE  &kp INT_KANA  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT
+&kp ESC         &kp N1        &kp N2        &kp N3  &kp N4  &kp N5                           &kp N6                &kp N7        &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB         &kp Q         &kp W         &kp E   &kp R   &kp T                            &kp Y                 &kp U         &kp I      &kp O     &kp P     &kp LEFT_BRACKET
+&kp CAPSLOCK    &kp A         &kp S         &kp D   &kp F   &kp G                            &kp H                 &kp J         &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C   &kp V   &kp B      &kp DEL    &trans     &kp N                 &kp M         &kp COMMA  &kp DOT   &kp FSLH  &kp INT_RO
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 2   &mo 1   &kp SPACE  &kp SPACE  &kp ENTER  &mt LEFT_SHIFT SPACE  &kp INT_KANA  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT
             >;
         };
 
         Layer1 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans     &trans                   &trans         &trans    &trans          &trans      &kp EQUAL  &kp INT_YEN
-&trans      &kp F1        &kp F2        &kp F3        &kp F4     &kp F5                   &kp PG_UP      &kp HOME  &kp UP_ARROW    &kp END     &trans     &kp RBKT
-&trans      &kp F6        &kp F7        &kp F8        &kp F9     &kp F10                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &kp ENTER  &kp NUHS
-&trans      &kp F11       &kp F12       &trans        &kp LC(Z)  &trans   &trans  &trans  &trans         &trans    &kp BACKSPACE   &kp DELETE  &trans     &trans
-&trans      &trans        &trans        &trans        &trans     &trans   &trans  &trans  &trans         &kp INT5  &trans          &trans      &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans     &soft_off                  &trans         &trans    &trans          &trans      &kp EQUAL  &kp INT_YEN
+&trans      &kp F1        &kp F2        &kp F3        &kp F4     &kp F5                     &kp PG_UP      &kp HOME  &kp UP_ARROW    &kp END     &trans     &kp RBKT
+&trans      &kp F6        &kp F7        &kp F8        &kp F9     &kp F10                    &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &kp ENTER  &kp NUHS
+&trans      &kp F11       &kp F12       &trans        &kp LC(Z)  &trans     &trans  &trans  &trans         &trans    &kp BACKSPACE   &kp DELETE  &trans     &trans
+&trans      &trans        &trans        &trans        &trans     &trans     &trans  &trans  &trans         &kp INT5  &trans          &trans      &trans     &trans
             >;
 
             label = "LAYER1";
-        };
-
-        Layer2 {
-            label = "LAYER2";
-            bindings = <
-&soft_off  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans     &trans           &trans        &trans        &trans        &trans                       &trans          &trans         &trans            &trans                &trans                 &trans
-&trans     &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &trans                 &trans
-&trans     &trans           &trans        &trans        &trans        &trans       &trans  &trans  &kp UNDERSCORE  &kp PLUS       &trans            &trans                &trans                 &trans
-&trans     &trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans          &trans         &trans            &trans                &trans                 &trans
-            >;
         };
 
         VideoEdit1 {
@@ -79,7 +78,7 @@
 &trans          &trans  &kp HOME   &trans     &kp END    &kp BACKSPACE                     &kp LC(A)   &kp LC(D)     &kp SPACE       &kp ENTER      &kp LS(ENTER)  &trans
 &trans          &trans  &kp UP     &kp LC(B)  &kp DOWN   &trans                            &kp RBKT    &kp LC(LEFT)  &kp DEL         &kp LC(RIGHT)  &kp NUHS       &trans
 &kp LSHIFT      &trans  &kp LC(H)  &kp LC(R)  &trans     &trans         &kp LS(Z)  &trans  &kp N       &kp LEFT      &msc SCRL_DOWN  &kp RIGHT      &kp END        &trans
-&trans          &trans  &trans     &to 0      &kp LCTRL  &kp LEFT_ALT   &kp SPACE  &trans  &mo 4       &trans        &trans          &trans         &trans         &trans
+&trans          &trans  &trans     &to 0      &kp LCTRL  &kp LEFT_ALT   &kp SPACE  &trans  &mo 3       &trans        &trans          &trans         &trans         &trans
             >;
 
             label = "VE";
@@ -95,6 +94,17 @@
             >;
 
             label = "VE2";
+        };
+
+        Layer4 {
+            label = "MAIN2";
+            bindings = <
+&none           &none         &none         &none  &none  &none                            &none                 &none         &none      &none     &none     &none
+&kp TAB         &kp Q         &kp W         &kp E  &kp R  &kp T                            &kp Y                 &kp U         &kp I      &kp O     &kp P     &kp LEFT_BRACKET
+&kp CAPSLOCK    &kp A         &kp S         &kp D  &kp F  &kp G                            &kp H                 &kp J         &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C  &kp V  &kp B      &kp DEL    &trans     &kp N                 &kp M         &kp COMMA  &kp DOT   &kp FSLH  &kp INT_RO
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 2  &mo 1  &kp SPACE  &kp SPACE  &kp ENTER  &mt LEFT_SHIFT SPACE  &kp INT_KANA  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT
+            >;
         };
     };
 };
