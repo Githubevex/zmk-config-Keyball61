@@ -109,11 +109,11 @@
 
         Key40_2 {
             bindings = <
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans     &trans    &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &kp EQUAL  &kp INT3  &kp MINUS  &kp RBKT
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0     &kp NUHS
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans    &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans      &trans      &trans      &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans      &kp EQUAL   &kp INT3    &kp MINUS  &kp RBKT
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7      &kp N8      &kp N9      &kp N0     &kp NUHS
+&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans     &trans
+&trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans      &trans     &trans
             >;
 
             label = "K40_2";
