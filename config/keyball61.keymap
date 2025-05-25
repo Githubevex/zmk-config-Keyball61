@@ -74,11 +74,11 @@
 
         VideoEdit1 {
             bindings = <
-&kp LS(ESCAPE)  &trans  &trans     &trans     &trans     &trans                            &kp ESCAPE  &trans        &trans          &trans         &trans         &trans
-&trans          &trans  &kp HOME   &trans     &kp END    &kp BACKSPACE                     &kp LC(A)   &kp LC(D)     &kp SPACE       &kp ENTER      &kp LS(ENTER)  &trans
-&trans          &trans  &kp UP     &kp LC(B)  &kp DOWN   &trans                            &kp RBKT    &kp LC(LEFT)  &kp DEL         &kp LC(RIGHT)  &kp NUHS       &trans
-&kp LSHIFT      &trans  &kp LC(H)  &kp LC(R)  &trans     &trans         &kp LS(Z)  &trans  &kp N       &kp LEFT      &msc SCRL_DOWN  &kp RIGHT      &kp END        &trans
-&trans          &trans  &trans     &to 1      &kp LCTRL  &kp LEFT_ALT   &kp SPACE  &trans  &mo 3       &trans        &trans          &trans         &trans         &trans
+&kp LS(ESCAPE)  &none  &none      &none      &none      &none                            &kp ESCAPE  &none         &none           &none          &none          &none
+&none           &none  &kp HOME   &none      &kp END    &kp BACKSPACE                    &kp LC(A)   &kp LC(D)     &kp SPACE       &kp ENTER      &kp LS(ENTER)  &none
+&none           &none  &kp UP     &kp LC(B)  &kp DOWN   &none                            &kp RBKT    &kp LC(LEFT)  &kp DEL         &kp LC(RIGHT)  &kp NUHS       &none
+&kp LSHIFT      &none  &kp LC(H)  &kp LC(R)  &none      &none          &kp LS(Z)  &none  &kp N       &kp LEFT      &msc SCRL_DOWN  &kp RIGHT      &kp END        &none
+&none           &none  &none      &to 1      &kp LCTRL  &kp LEFT_ALT   &kp SPACE  &none  &mo 3       &none         &none           &none          &none          &none
             >;
 
             label = "VE";
