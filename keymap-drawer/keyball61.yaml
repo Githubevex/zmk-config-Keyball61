@@ -346,8 +346,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '=', s: +}
   - INT3
+  - {t: '=', s: +}
   - {t: '-', s: _}
   - {t: ']', s: '}'}
   - $$mdi:keyboard-esc$$
