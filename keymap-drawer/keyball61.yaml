@@ -317,7 +317,7 @@ layers:
   - {t: VE, h: toggle}
   - LAYER1
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - LAYER1
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - INT KANA
