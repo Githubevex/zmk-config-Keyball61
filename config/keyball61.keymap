@@ -119,11 +119,11 @@
 
         Key40_2 {
             bindings = <
-&none           &none       &none       &none       &none       &none                     &none   &none       &none       &none       &none      &none
-&none           &none       &none       &none       &none       &none                     &none   &none       &kp INT3    &kp EQUAL   &kp MINUS  &kp RBKT
-&kp ESC         &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                    &kp N6  &kp N7      &kp N8      &kp N9      &kp N0     &kp NUHS
-&kp LEFT_SHIFT  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none  &none  &none   &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &none      &none
-&none           &none       &none       &none       &none       &none       &none  &none  &none   &none       &none       &none       &none      &none
+&none           &none       &none       &none       &none       &none                     &none       &none       &none       &none       &none       &none
+&none           &none       &none       &none       &none       &none                     &none       &none       &kp INT3    &kp EQUAL   &kp MINUS   &kp RBKT
+&kp ESC         &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                    &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp NUHS
+&kp LEFT_SHIFT  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &none  &none  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &none
+&none           &none       &none       &none       &none       &none       &none  &none  &none       &none       &none       &none       &none       &none
             >;
 
             label = "K40_2";
