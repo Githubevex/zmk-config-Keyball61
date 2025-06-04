@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - $$mdi:backspace-reverse-outline$$
-  - B
+  - {t: '$$mdi:backspace$$', type: backspace}
   - N
   - M
   - {t: ',', s: <}
