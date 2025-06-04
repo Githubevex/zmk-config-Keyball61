@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - B
   - N
   - M
   - {t: ',', s: <}
