@@ -49,6 +49,11 @@
             bindings = <&soft_off>;
             key-positions = <9 10 11>;
         };
+
+        ONISHI {
+            bindings = <&none>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
@@ -133,6 +138,18 @@
 &none       &kp F11       &kp F12       &none         &kp LC(Z)  &kp LG(LS(S))  &none  &none  &none          &none     &kp BACKSPACE   &kp DELETE  &none      &none
 &none       &none         &none         &none         &none      &none          &none  &none  &none          &kp INT5  &none           &none       &none      &none
             >;
+        };
+
+        ONISHI {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans     &trans                     &trans  &trans  &trans  &trans  &kp FSLH  &trans
+&trans  &kp Q   &kp L   &kp U   &kp COMMA  &kp DOT                    &kp F   &kp W   &kp R   &kp Y   &kp P     &trans
+&trans  &kp E   &kp I   &kp A   &kp O      &kp MINUS                  &kp K   &kp T   &kp N   &kp S   &kp H     &trans
+&trans  &kp Z   &kp X   &kp C   &kp V      &kp SEMI   &none   &none   &kp G   &kp D   &kp M   &kp J   &kp B     &trans
+&trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans
+            >;
+
+            label = "ONISHI";
         };
     };
 };
