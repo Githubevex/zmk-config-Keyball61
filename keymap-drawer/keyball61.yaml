@@ -362,7 +362,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - '#'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: Sft+1, s: Sft+!}
   - {t: Sft+2, s: Sft+@}
   - {t: Sft+3, s: Sft+#}
