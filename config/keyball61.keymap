@@ -51,7 +51,7 @@
         };
 
         ONISHI {
-            bindings = <&none>;
+            bindings = <&to 7>;
             key-positions = <2 3>;
         };
     };
