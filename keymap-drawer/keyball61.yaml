@@ -532,4 +532,4 @@ combos:
 - p: [9, 10, 11]
   k: '&soft_off'
 - p: [2, 3]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: {t: ONISHI, h: toggle}
