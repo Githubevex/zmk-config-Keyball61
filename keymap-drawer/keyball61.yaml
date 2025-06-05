@@ -344,8 +344,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: 'Sft+]', s: 'Sft+}'}
+  - Sft+#
   - INT3
   - {t: '=', s: +}
   - {t: '-', s: _}
