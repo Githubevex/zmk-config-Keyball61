@@ -318,7 +318,7 @@ layers:
   - LAYER6
   - $$mdi:keyboard-space$$
   - LAYER1
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: RETURN, h: Num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - INT KANA
   - $$mdi:arrow-left-bold$$
