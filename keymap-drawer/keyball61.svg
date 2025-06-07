@@ -635,10 +635,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -1004,10 +1004,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -1367,10 +1367,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -1729,10 +1729,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -2109,10 +2109,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -2492,10 +2492,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -2858,10 +2858,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>
@@ -3222,10 +3222,10 @@ rect.held, rect.combo.held {
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
-<path d="M812,51 l-38,-6" class="combo"/>
-<path d="M812,51 l37,3" class="combo"/>
-<rect rx="6" ry="6" x="798" y="38" width="28" height="26" class="combo"/>
-<text x="812" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
+<path d="M84,51 l-37,3" class="combo"/>
+<path d="M84,51 l38,-6" class="combo"/>
+<rect rx="6" ry="6" x="70" y="38" width="28" height="26" class="combo"/>
+<text x="84" y="51" class="combo tap"><tspan style="font-size: 67%">&amp;soft_off</tspan></text>
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="154" y="22" width="28" height="26" class="combo"/>

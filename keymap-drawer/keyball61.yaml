@@ -529,7 +529,7 @@ combos:
   k: {t: K40_1, h: toggle}
 - p: [6, 7]
   k: {t: LAYER1, h: toggle}
-- p: [9, 10, 11]
+- p: [0, 1, 2]
   k: '&soft_off'
 - p: [2, 3]
   k: {t: ONISHI, h: toggle}
