@@ -593,7 +593,7 @@ combos:
 - p: [4, 5]
   k: {t: K40_1, h: toggle}
 - p: [6, 7]
-  k: {t: LAYER1, h: toggle}
+  k: {t: MAIN, h: toggle}
 - p: [0, 1, 2]
   k: '&soft_off'
 - p: [2, 3]

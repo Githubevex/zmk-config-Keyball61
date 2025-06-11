@@ -634,8 +634,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -1003,8 +1003,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -1366,8 +1366,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -1728,8 +1728,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -2112,8 +2112,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -2495,8 +2495,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -2861,8 +2861,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -3236,8 +3236,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -3600,8 +3600,8 @@ rect.held, rect.combo.held {
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="602" y="35" width="28" height="26" class="combo"/>
-<a href="#LAYER1">
-<text x="616" y="48" class="combo tap layer-activator">LAYER1</text>
+<a href="#MAIN">
+<text x="616" y="48" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="59" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
