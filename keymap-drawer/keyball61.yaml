@@ -171,8 +171,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+H
   - Ctl+R
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+C
+  - Ctl+V
   - Sft+Z
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
