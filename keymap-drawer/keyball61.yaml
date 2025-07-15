@@ -590,11 +590,7 @@ combos:
   k: INT5
 - p: [31, 32]
   k: INT KANA
-- p: [4, 5]
-  k: {t: K40_1, h: toggle}
 - p: [6, 7]
   k: {t: MAIN, h: toggle}
 - p: [0, 1, 2]
   k: '&soft_off'
-- p: [2, 3]
-  k: {t: ONISHI, h: toggle}
