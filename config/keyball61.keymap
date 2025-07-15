@@ -35,11 +35,6 @@
             key-positions = <31 32>;
         };
 
-        ToLayer4 {
-            bindings = <&to 4>;
-            key-positions = <4 5>;
-        };
-
         ToLayer0 {
             bindings = <&to 0>;
             key-positions = <6 7>;
@@ -48,11 +43,6 @@
         SoftOff {
             bindings = <&soft_off>;
             key-positions = <0 1 2>;
-        };
-
-        ONISHI {
-            bindings = <&to 8>;
-            key-positions = <2 3>;
         };
     };
 
