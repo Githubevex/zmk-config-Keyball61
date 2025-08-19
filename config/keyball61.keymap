@@ -65,7 +65,7 @@
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &none                          &none          &none     &none           &none       &kp EQUAL  &kp INT_YEN
 &none       &kp F1        &kp F2        &kp F3        &kp F4     &kp F5                         &kp PG_UP      &kp HOME  &kp UP_ARROW    &kp END     &none      &kp RBKT
 &none       &kp F6        &kp F7        &kp F8        &kp F9     &kp F10                        &kp PAGE_DOWN  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT   &kp ENTER  &kp NUHS
-&trans      &kp F11       &kp F12       &none         &kp LC(Z)  &kp LG(LS(S))  &none   &trans  &kp INT5       &kp INT2  &kp BACKSPACE   &kp DELETE  &none      &none
+&trans      &kp F11       &kp F12       &none         &kp LC(Z)  &kp LG(LS(S))  &none   &trans  &kp INT5       &kp INT2  &kp BACKSPACE   &kp DELETE  &trans     &none
 &none       &trans        &trans        &kp LG(E)     &trans     &trans         &trans  &trans  &trans         &trans    &trans          &trans      &trans     &trans
             >;
 
