@@ -96,16 +96,16 @@
             label = "VE";
         };
 
-        VideoEdit2 {
+        Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans    &trans         &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans           &trans        &trans    &trans         &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp LS(PAGE_UP)  &kp RS(LEFT)  &kp UP    &kp LS(RIGHT)  &kp LS(PAGE_DOWN)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(Z)        &kp PAGE_UP   &kp DOWN  &kp PAGE_DOWN  &trans             &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans        &trans    &trans         &trans             &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR_ALL                  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans        &trans        &trans        &trans  &trans                          &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&trans  &trans        &trans        &trans        &trans  &trans                          &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &trans
+&trans  &trans        &trans        &trans        &trans  &trans          &trans  &trans  &none   &none           &mkp MCLK       &none            &trans  &trans
+&trans  &trans        &trans        &trans        &trans  &trans          &trans  &trans  &trans  &kp N4          &trans          &trans           &trans  &trans
             >;
 
-            label = "VE2";
+            label = "Mouse";
         };
 
         Key40_2 {
