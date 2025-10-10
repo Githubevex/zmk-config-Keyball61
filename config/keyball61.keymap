@@ -25,19 +25,14 @@
     combos {
         compatible = "zmk,combos";
 
-        Kana {
-            bindings = <&kp INT5>;
-            key-positions = <27 28>;
-        };
-
-        ABC {
-            bindings = <&kp INT_KANA>;
-            key-positions = <31 32>;
-        };
-
-        ToLayer0 {
+        Main {
             bindings = <&to 0>;
-            key-positions = <6 7>;
+            key-positions = <15 16>;
+        };
+
+        MVEdit {
+            bindings = <&to 3>;
+            key-positions = <27 28>;
         };
 
         SoftOff {
@@ -52,11 +47,11 @@
         Layer0 {
             label = "MAIN";
             bindings = <
-&kp ESC         &kp N1        &kp N2        &kp N3            &kp N4   &kp N5                              &kp N6     &kp N7                 &kp N8             &kp N9    &kp N0    &kp MINUS
-&kp TAB         &kp Q         &kp W         &kp E             &kp R    &kp T                               &kp Y      &kp U                  &kp I              &kp O     &kp P     &kp LEFT_BRACKET
-&kp CAPSLOCK    &kp A         &kp S         &mt LEFT_SHIFT D  &lt 4 F  &kp G                               &kp H      &kp J                  &mt RIGHT_SHIFT K  &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V    &kp B   &kp DEL    &lt 7 BACKSPACE  &kp N      &kp M                  &kp COMMA          &kp DOT   &kp FSLH  &kp INT_RO
-&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 3             &mo 2    &mo 1   &kp SPACE  &lt 5 ENTER      &kp SPACE  &mt RIGHT_SHIFT GRAVE  &kp LEFT           &kp DOWN  &kp UP    &kp RIGHT
+&kp ESC         &kp N1        &kp N2        &kp N3            &kp N4   &kp N5                               &kp N6     &kp N7                 &kp N8             &kp N9    &kp N0    &kp MINUS
+&kp TAB         &kp Q         &kp W         &kp E             &kp R    &kp T                                &kp Y      &kp U                  &kp I              &kp O     &kp P     &kp LEFT_BRACKET
+&kp CAPSLOCK    &kp A         &kp S         &mt LEFT_SHIFT D  &lt 4 F  &kp G                                &kp H      &kp J                  &mt RIGHT_SHIFT K  &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V    &kp B   &kp LA(F4)  &lt 7 BACKSPACE  &kp N      &kp M                  &kp COMMA          &kp DOT   &kp FSLH  &kp INT_RO
+&kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &to 3             &mo 2    &mo 1   &kp SPACE   &lt 5 ENTER      &kp SPACE  &mt RIGHT_SHIFT GRAVE  &kp LEFT           &kp DOWN  &kp UP    &kp RIGHT
             >;
         };
 
@@ -88,8 +83,8 @@
             bindings = <
 &kp LS(ESCAPE)  &none       &none      &none          &none      &none                           &none  &none  &none  &none  &none  &none
 &none           &none       &kp HOME   &kp BACKSPACE  &kp END    &kp LC(Z)                       &none  &none  &none  &none  &none  &none
-&kp ENTER       &none       &kp UP     &kp LC(B)      &kp DOWN   &kp LS(Z)                       &none  &none  &none  &none  &none  &none
-&kp LSHIFT      &none       &kp LC(H)  &kp LC(R)      &kp LC(C)  &kp LC(V)     &none      &none  &none  &none  &none  &none  &none  &none
+&kp ENTER       &kp LC(R)   &kp UP     &kp LC(B)      &kp DOWN   &kp LS(Z)                       &none  &none  &none  &none  &none  &none
+&kp LSHIFT      &none       &kp LC(H)  &kp C          &kp LC(C)  &kp LC(V)     &none      &none  &none  &none  &none  &none  &none  &none
 &kp BACKSPACE   &kp DELETE  &none      &to 0          &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &none  &none  &none  &none  &none  &none  &none
             >;
 
@@ -98,8 +93,8 @@
 
         Mouse {
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR_ALL                  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans        &trans        &trans  &trans                          &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR                      &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans        &trans        &trans        &trans  &bt BT_CLR_ALL                  &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
 &trans  &trans        &trans        &trans        &trans  &trans                          &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none   &trans
 &trans  &trans        &trans        &trans        &trans  &trans          &trans  &trans  &none   &none           &mkp MCLK       &none            &trans  &trans
 &trans  &trans        &trans        &trans        &trans  &trans          &trans  &trans  &trans  &kp N4          &trans          &trans           &trans  &trans
