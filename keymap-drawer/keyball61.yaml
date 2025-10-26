@@ -446,10 +446,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: MVEdit, h: toggle}
   - Function
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: Mouse}
   - {t: '$$mdi:keyboard-return$$', h: KeyPad}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-space$$
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
