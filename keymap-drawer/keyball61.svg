@@ -665,6 +665,14 @@ rect.held, rect.combo.held {
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 364)" class="layer-Second">
@@ -1039,6 +1047,14 @@ rect.held, rect.combo.held {
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 728)" class="layer-Function">
@@ -1395,6 +1411,14 @@ rect.held, rect.combo.held {
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1092)" class="layer-MVEdit">
@@ -1745,6 +1769,14 @@ rect.held, rect.combo.held {
 <a href="#MAIN">
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2103,6 +2135,14 @@ rect.held, rect.combo.held {
 <a href="#MAIN">
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2486,6 +2526,14 @@ rect.held, rect.combo.held {
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 2184)" class="layer-Nagi">
@@ -2868,6 +2916,14 @@ rect.held, rect.combo.held {
 <a href="#MAIN">
 <text x="616" y="160" class="combo tap layer-activator">MAIN</text>
 </a><text x="616" y="171" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-4">
+<path d="M644,41 l-38,8" class="combo"/>
+<path d="M644,41 l38,-9" class="combo"/>
+<rect rx="6" ry="6" x="630" y="28" width="28" height="26" class="combo"/>
+<text x="644" y="41" class="combo tap">
+<tspan x="644" dy="-0.6em" style="font-size: 86%">Alt+INT</tspan><tspan x="644" dy="1.2em" style="font-size: 86%">KANA</tspan>
+</text>
 </g>
 </g>
 </g>

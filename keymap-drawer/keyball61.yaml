@@ -464,3 +464,5 @@ combos:
   k: '&soft_off'
 - p: [30, 31]
   k: {t: MAIN, h: toggle}
+- p: [6, 7, 8]
+  k: Alt+INT KANA
