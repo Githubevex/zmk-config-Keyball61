@@ -115,7 +115,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - INT3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+INT3
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
